@@ -1,7 +1,7 @@
 {
-  "name": "cake-price-calculator",
+  "name": "react-webpack5-eslint",
   "version": "1.0.0",
-  "description": "simple application to help calculate price of cakes and cookies based on salary wishes and time spending",
+  "description": "sample app template react with webpack 5 and settings of eslint",
   "main": "index.js",
   "scripts": {
     "test": "jest",
