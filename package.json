@@ -1,0 +1,38 @@
+{
+  "name": "cake-price-calculator",
+  "version": "1.0.0",
+  "description": "simple application to help calculate price of cakes and cookies based on salary wishes and time spending",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Anastasiia Horban",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.34.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
