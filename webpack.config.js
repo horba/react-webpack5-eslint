@@ -13,13 +13,24 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ['css-loader', 'style-loader']
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
+        exclude: /node_modules/,
+        use: ['file-loader?name=[name].[ext]'] 
       }
     ],
   },  
+  output: {
+    path: path.join(__dirname, '/dist'),
+    filename: 'bundle.js'
+  },
   devServer: {
     port: 3000,
-    watchContentBase: true
+    watchContentBase: true,
+    open: true,
+    hot: true,
   },
   resolve: {
     alias: {
